@@ -1,0 +1,74 @@
+<!-- Tala om att det är html-dokument -->
+<!DOCTYPE html>
+
+<!-- Alla element ska finnas inom html-taggen -->
+<html>
+<!-- I head placeras saker som inte är innehåll, tex css-filer och javascript -->
+<head>
+    <!-- Dessa 3 meta-taggar måste vara först i head för att alla tecken (åäö) och Bootstrap ska fungera korrekt -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Koppla in Bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <!-- Koppla in egen CSS-fil style.css OBS! Ha den som sista css-fil -->
+    <link rel="stylesheet" type ="text/css" href="css/style.css">
+
+    <!-- Koppla in och JQuery Bootstrap javascript -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- Koppla in egen JavaScript-fil funktion.js OBS! Ha den som sista js-fil -->
+    <script type="text/javascript" src="js/funktion.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Francois+One" rel="stylesheet">
+    <link rel="icon" type="image/png" href="bilder/basketboll.png">
+    <!-- I title skriver du titeln som webbläsarfönstret ska ha när den här sidan besöks-->
+    <title>Basket</title>
+</head>
+
+<!-- I body finns allt innehåll på hemsidan -->
+<body>
+   <nav class="nav navbar-inverse navbar-static-top">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">Basket</a>
+        <ul class="nav navbar-nav">
+            <li><a href="menyval1.html">skor</a></li>
+            <li><a href="menyval2.html">top 10 nba spelare</a></li>
+            <li><a href="menyval3.html">NBA lag</a></li>
+        </ul>
+    </div>
+</nav>
+<div class="scroll-box">
+    <p id="parall">Mina top 10 spelare i NBA</p>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-6">
+            <ol>
+                <p> <b> <h2>Top 10 NBA spelare:</h2> </b> </p>
+                <li>Kevin Durant</li>
+                <li>Lebron James</li>
+                <li>Steph Curry</li>
+                <li>Kirye Irving</li>
+                <li>Kristaps Porzingis</li>
+                <li>Kobe Bryant</li>
+                <li>Carmelo Anthony</li>
+                <li>Draymond Green</li>
+                <li>Dwayne Wade</li>
+                <li>Demar Derozan</li>
+
+                <h4>Jag valde Kevin Durant som nummer 1 för att han är en all-aroud player och han kan skuta och gå på korg.</h4>
+                <h4>Jag valde Kobe Bryant som nummer 6 för att han inte spelar längre och jag tycker att han inte var lika bra som dom som spelar nu.</h4>
+            </ol>
+        </div>
+        <div class="col-sm-6">
+            <img  height="300px" width="300px" src="bilder/maxresdefault.jpg">
+            <img height="300px" width="400px" src="bilder/kevin-durant.jpg">
+        </div> 
+    </div>
+</div>
+
+
+</body>
+</html>
